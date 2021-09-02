@@ -1,11 +1,11 @@
 public class java4{
     public static void main(String[] args)  {
-        add(100,20);
-        add(200,50);
+       int ans = add(100,100);
+        System.out.println(ans);
+    
     }
-    public static void add(int x, int y){
-        int ans = x + y;
-        System.out.println(x + "+" + y + "=" + ans);
+    public static int add(int x, int y){
+        int ans = x * y;
+        return ans;
     }
-
 }
