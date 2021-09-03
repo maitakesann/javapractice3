@@ -5,7 +5,7 @@ public class java4{
     
     }
     public static int add(int x, int y){
-        int ans = x * y;
+        int ans = x + y;
         return ans;
     }
 }
