@@ -11,7 +11,5 @@ public class java4{
     
     public static void main (String[] args){
         System.out.println(add(5,6));
-        System.out.println(add(4.8,6.8));
-        System.out.println(add("じゃじゃ","かか"));
     }
 }
