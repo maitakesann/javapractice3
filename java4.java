@@ -1,15 +1,13 @@
 public class java4{
-    public static int add(int x, int y)  {
-      return x + y;
-    }
-    public static double add(double x , double y){
-        return x + y;
-    }
-    public static String add(String x , String y){
-        return x + y;
-    }
-    
     public static void main (String[] args){
-        System.out.println(add(5,6));
+        introduceOneself();
+    }
+    public static void introduceOneself(){
+        String name = "hahaha";
+        int age = 14;
+        double height = 179.4;
+        char seiza = '酉';
+        System.out.println("私の名前は" + name + "です。" + "身長は" + height +"年齢は" + age + "干支は" + seiza + "です");
+        
     }
 }
