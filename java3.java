@@ -8,6 +8,8 @@ public class java3{
             }else{
                 System.out.println("半です");
             }
+        }else{
+            System.out.println("該当しません");
         }
     }
 }
