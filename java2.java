@@ -13,19 +13,24 @@ public class java2{
         }
         
         java5();
+        t1();
     }
     public static void java5(){
-        double[] d = new double[3] ;
-        double sum,avg;
-        d[0] = 1.2;
-        d[1] = 3.7;
-        d[2] = 4.1;
-        sum = 0.0;
-        for(int i = 0; i < d.length; i++){
-            sum += d[i];
+        int[] j = new int[3];
+        j[0]= 4; j[1]=8; j[2]=6;
+        int sum = 0;
+        for(int i = 0; i < j.length; i++){
+            System.out.print(j[i] + " ");
+           sum += j[i];
         }
-        avg = sum / d.length;
-        System.out.println("合計:" + sum);
-        System.out.println("平均:" + avg);
+        System.out.println(sum);
+    }
+    
+    public static void t1(){
+        int[] n = new int[7];
+        int a = new java.util.Random().nextInt(10);
+        for(int b = 0; b < n.length; b++){
+            System.out.print("a[b]=" + a + a + a);
+        }
     }
 }
