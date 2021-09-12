@@ -13,8 +13,7 @@ public class java2{
         }
         
         java5();
-        t1();
-        t2();
+        t3();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -40,7 +39,14 @@ public class java2{
             y[i] = (int)(Math.random() * 10) + 1;
             System.out.print("a["+ i +"]=" + y[i] + " ");
         }
-        
+    }
+    
+    public static void t3(){
+        double[] d = {0.2, -5.1, 3.2, 1.8};
+        for(int i = 0; i < d.length; i++){
+            System.out.print("double["+ i +"]=" + d[i] + " ");
+        }
+        System.out.println("");
         
     }
 }
