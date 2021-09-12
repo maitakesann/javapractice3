@@ -14,6 +14,7 @@ public class java2{
         
         java5();
         t1();
+        t2();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -27,10 +28,19 @@ public class java2{
     }
     
     public static void t1(){
-        int[] n = new int[7];
-        int a = new java.util.Random().nextInt(10);
-        for(int b = 0; b < n.length; b++){
-            System.out.print("a[b]=" + a + a + a);
+       int k[] = {5,4,3,2,1,0};
+       for(int i = 0; i < k.length; i++){
+           System.out.print(k[i] + " ");
+       }
+    }
+    
+    public static void t2(){
+        int[] y = new int[7];
+        for(int i = 0; i < y.length; i++){
+            y[i] = (int)(Math.random() * 10) + 1;
+            System.out.print("a["+ i +"]=" + y[i] + " ");
         }
+        
+        
     }
 }
