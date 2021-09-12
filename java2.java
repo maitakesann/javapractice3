@@ -12,8 +12,9 @@ public class java2{
             System.out.println("huka");
         }
         
-        java5();
-        t3();
+        //java5();
+        //t3();
+        t4();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -48,5 +49,27 @@ public class java2{
         }
         System.out.println("");
         
+    }
+    
+    public static void t4(){
+        int[] date = new int[10];
+        for(int i = 0; i < date.length; i++){
+            date[i] = (int)(Math.random() * 100 ) + 1;
+            System.out.print(date[i] + " ");
+        }
+        System.out.println("");
+        System.out.println("");
+        for(int i = 0; i < date.length; i++){
+            if(date[i] % 2 == 0){
+                System.out.print("偶数：" + date[i] + " ");
+            }
+        }
+        System.out.println("");
+        System.out.println("");
+        for(int i = 0; i < date.length; i++){
+            if(date[i] % 2 != 0){
+                System.out.print("奇数：" + date[i] + " ");
+            }
+        }
     }
 }
