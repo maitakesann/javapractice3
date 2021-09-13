@@ -15,7 +15,8 @@ public class java2{
         //java5();
         //t3();
         //t4();
-        t5();
+        //t5();
+        t6();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -92,5 +93,25 @@ public class java2{
                 System.out.print("3の倍数以外：" + date[i] + " ");
             }
         }
+    }
+    
+    public static void t6(){
+        int[] date = new int[10];
+        int intMax = date[0];
+        int intMin = date[0];
+        
+        for(int i = 0; i < date.length; i++){
+            date[i] = (int)(Math.random() * 10) + 1;
+            if(intMax < date[i]){
+                intMax = date[i];
+            }
+            if(intMax > date[i]){
+                intMin = date[i];
+            }
+        }
+        int intAvg = date[i]
+        System.out.print("最大値：" + intMax + " ");
+        System.out.println("");
+        System.out.print("最小値：" + intMin + " ");
     }
 }
