@@ -99,6 +99,7 @@ public class java2{
         int[] date = new int[10];
         int intMax = date[0];
         int intMin = date[0];
+        int intSum = 0;
         
         for(int i = 0; i < date.length; i++){
             date[i] = (int)(Math.random() * 10) + 1;
@@ -108,10 +109,16 @@ public class java2{
             if(intMax > date[i]){
                 intMin = date[i];
             }
+            intSum += date[i];
+            System.out.print("ランダム数字：" + date[i] + " ");
         }
-        int intAvg = date[i]
+        int intAvg = intSum / 10;
         System.out.print("最大値：" + intMax + " ");
         System.out.println("");
         System.out.print("最小値：" + intMin + " ");
+        System.out.println("");
+        System.out.print("平均値：" + intAvg + " ");
+        
+        
     }
 }
