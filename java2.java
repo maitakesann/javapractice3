@@ -16,7 +16,8 @@ public class java2{
         //t3();
         //t4();
         //t5();
-        t6();
+        //t6();
+        t7();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -112,7 +113,7 @@ public class java2{
             intSum += date[i];
             System.out.print("ランダム数字：" + date[i] + " ");
         }
-        int intAvg = intSum / 10;
+        int intAvg = intSum / date.length;
         System.out.print("最大値：" + intMax + " ");
         System.out.println("");
         System.out.print("最小値：" + intMin + " ");
@@ -121,4 +122,38 @@ public class java2{
         
         
     }
+    
+    public static void t7(){
+        int[] a = new int [5];
+        int sum = 0;
+
+        for(int i = 0; i < a.length; i++){
+            a[i] = new java.util.Random().nextInt(10);
+            System.out.print(a[i] + " ");
+            sum += a[i];
+        }
+        System.out.println();
+        
+        int avg = sum / a.length;
+        System.out.println("合計値：" + sum);
+        System.out.println("平均値" + avg);
+        
+        System.out.print("平均値より大きい:");
+        for(int i = 0; i < a.length; i++){
+            if(a[i] > avg ){
+                System.out.print( a[i] + " ");
+            }
+        }
+        
+        System.out.println();
+        
+        System.out.print("平均値より小さい:");
+        for(int i = 0; i < a.length; i++){
+            if(a[i] < avg ){
+            System.out.print( a[i] + " ");
+            }
+        }
+        System.out.println();
+    }
+        
 }
