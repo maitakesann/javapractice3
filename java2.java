@@ -17,7 +17,8 @@ public class java2{
         //t4();
         //t5();
         //t6();
-        t7();
+        //t7();
+        t8();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -153,6 +154,46 @@ public class java2{
             System.out.print( a[i] + " ");
             }
         }
+        System.out.println();
+    }
+    
+    public static void t8(){
+        int[] date = new int[5];
+        System.out.print("配列の数：");
+        for(int i = 0; i < date.length; i++){
+            date[i] = (int)(Math.random() * 20) - 10;
+            System.out.print(date[i] + " ");
+        }
+        
+        System.out.println();
+        
+        System.out.print("0より大きい数：");
+        for(int i = 0; i < date.length; i++){
+            if(date[i] > 0){
+                System.out.print(date[i] + " ");
+            }
+        }
+        
+        System.out.println();
+        
+        System.out.print("0より小さい数：");
+        for(int i = 0; i < date.length; i++){
+            if(date[i] < 0){
+                System.out.print(date[i] + " ");
+            }
+        }
+        
+        System.out.println();
+        
+        int sum = 0;
+        System.out.print("0の数：");
+        for(int i = 0; i < date.length; i++){
+            if( date[i] == 0){
+                sum ++;
+            }
+        }
+        System.out.print(sum);
+        
         System.out.println();
     }
         
