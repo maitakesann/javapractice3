@@ -17,8 +17,8 @@ public class java2{
         //t4();
         //t5();
         //t6();
-        //t7();
-        //t8();
+        t7();
+        t8();
         t9();
     }
     public static void java5(){
@@ -200,9 +200,21 @@ public class java2{
     
     public static void t9(){
         int[] date = new int[10];
+        
         for(int i = 0; i < date.length; i++){
             date[i] = (int)(Math.random() * 100) + 0;
             System.out.print(date[i] + " ");
+        }
+        
+        System.out.println();
+        System.out.print("50以上の数：");
+        for(int i = 0; i < date.length; i++){
+            if(date[i] > 50 ){
+                System.out.print(date[i] + " ");
+            }else if(date[i] < 50){
+                System.out.println(date[i] + " ");
+            }else
+            System.out.println("");
         }
     }
  
