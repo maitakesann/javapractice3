@@ -17,9 +17,10 @@ public class java2{
         //t4();
         //t5();
         //t6();
-        t7();
-        t8();
-        t9();
+        //t7();
+        //t8();
+        //t9();
+        t10();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -216,6 +217,16 @@ public class java2{
             }else
             System.out.println("");
         }
+    }
+    
+    public static void t10(){
+        int[] date = new int[10];
+        
+        for(int i = 0; i < date.length; i++){
+            date[i] = (int)(Math.random() * 100) + 0;
+            System.out.print(date[i] + " ");
+        }
+        
     }
  
  
