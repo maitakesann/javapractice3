@@ -19,8 +19,9 @@ public class java2{
         //t6();
         //t7();
         //t8();
-        //t9();
+        t9();
         t10();
+        t11();
     }
     public static void java5(){
         int[] j = new int[3];
@@ -220,15 +221,44 @@ public class java2{
     }
     
     public static void t10(){
-        int[] date = new int[10];
-        
+        int[] date = new int[7];
         for(int i = 0; i < date.length; i++){
-            date[i] = (int)(Math.random() * 100) + 0;
+            date[i] = (int)(Math.random() * 10) + 1;
             System.out.print(date[i] + " ");
         }
+        System.out.println("");
+        System.out.println("");
+        
+        for(int i = 0; i < date.length; i++){
+            for(int j = 0; j <date[i]; j++){
+              System.out.print("*");  
+            }
+            System.out.println("");
+        }
+        System.out.println("");
         
     }
- 
+    
+    public static void t11(){
+        int[] date = new int[5];
+        for(int i = 0; i < date.length; i++){
+            date[i] = (int)(Math.random() * 100) + 1;
+            System.out.print(date[i] + " ");
+        }
+        System.out.println("");
+        
+        for(int i = 0; i < date.length; i++){
+            if (date[i] > 0 && date[i] < 60){
+                System.out.print(date[i] + " ");
+            }else if(date[i] > 60 && date[i] < 80){
+                System.out.print("60以上80未満：" + date[i] + " ");
+            }else{
+                System.out.print("80点以上:" + date[i] + " ");
+            }
+        }
+        System.out.println("");
+        
+    }
  
  
  
