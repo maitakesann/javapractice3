@@ -12,26 +12,13 @@ public class java2{
             System.out.println("huka");
         }
         
-        //java5();
-        //t3();
-        //t4();
-        //t6();
-        //t7();
         t8();
         t9();
         t10();
         t11();
     }
-    public static void java5(){
-        int[] j = new int[3];
-        j[0]= 4; j[1]=8; j[2]=6;
-        int sum = 0;
-        for(int i = 0; i < j.length; i++){
-            System.out.print(j[i] + " ");
-           sum += j[i];
-        }
-        System.out.println(sum);
-    }
+    
+    
     
     public static void t1(){
        int k[] = {5,4,3,2,1,0};
