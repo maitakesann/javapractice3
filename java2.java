@@ -181,10 +181,13 @@ public class java2{
             System.out.print(date[i] + " ");
         }
         System.out.println("");
+        System.out.println("");
+        System.out.println("");
         
         for(int i = 0; i < date.length; i++){
             if (date[i] > 0 && date[i] < 60){
                 System.out.print(date[i] + " ");
+                 System.out.println("");
             }else if(date[i] > 60 && date[i] < 80){
                 System.out.print("60以上80未満：" + date[i] + " ");
             }else{
