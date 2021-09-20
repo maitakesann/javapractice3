@@ -12,9 +12,9 @@ public class java2{
             System.out.println("huka");
         }
         
-        t8();
-        t9();
-        t10();
+        //t8();
+        //t9();
+        //t10();
         t11();
     }
     
