@@ -16,7 +16,8 @@ public class java2{
         //t9();
         //t10();
         //t11();
-        t12();
+        //t12();
+        t13();
     }
     
     
@@ -208,6 +209,27 @@ public class java2{
             }
             System.out.println();
         }
+    }
+    
+    public static void t13(){
+        int[][] date = new int[3][3];
+        int max = 0; int min = 10;
+        for (int i = 0; i < date.length; i++){
+            for(int j = 0; j < date[i].length; j++){
+                date[i][j] = (int)(Math.random() * 9);
+                System.out.print(date[i][j] + " ");
+                if(max < date[i][j]){
+                    max = date[i][j];
+                }
+                if(min > date[i][j]){
+                    min = date[i][j];
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("最大値" + max);
+        System.out.println("最低値" + min);
+        
     }
  
  
