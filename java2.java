@@ -15,7 +15,8 @@ public class java2{
         //t8();
         //t9();
         //t10();
-        t11();
+        //t11();
+        t12();
     }
     
     
@@ -196,6 +197,17 @@ public class java2{
         }
         System.out.println("");
         
+    }
+    
+    public static void t12(){
+        int[] [] date = new int[3][3];
+        for(int i = 0; i < date.length; i++){
+            for(int j = 0; j <date[i].length; j++){
+                date[i][j] = (int)(Math.random() * 9) ;
+                System.out.print(date[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
  
  
